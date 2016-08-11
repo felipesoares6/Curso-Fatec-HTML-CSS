@@ -1,4 +1,4 @@
-# Curso de HTML+CSS 
+# Curso de HTML+CSS
 
 ## Formulário de Feedback
 - [formulário]()
@@ -15,3 +15,5 @@
 - [w3schools](http://www.w3schools.com/)
 - [tableless](http://tableless.com.br/)
 - [codepen.io](http://codepen.io/)
+- [fontawesome.io](http://fontawesome.io/)
+- [CDN fontawesome.io](https://www.bootstrapcdn.com/fontawesome/)
