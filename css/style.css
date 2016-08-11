@@ -1,0 +1,189 @@
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, monospace;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+header,
+section,
+footer {
+  min-height: 100vh;
+}
+
+h2 {
+  font-size: 6vh;
+  text-align: center;
+}
+
+p {
+  font-family: Arial;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* header */
+
+header {
+  background-image: url("https://source.unsplash.com/user/pineapple");
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background-attachment: fixed;
+
+}
+
+header:after {
+  z-index: -1;
+  content: '';
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 120px;
+  text-align: center;
+  font-weight: bold;
+  color: #FFF;
+  z-index: 2;
+}
+
+header a {
+  display: block;
+  background-color: rgba(0, 0, 0 ,0.4);
+  color: #FFF;
+  margin: auto;
+  padding: 16px;
+  border-radius: 4px;
+  max-width: 50vh;
+  transition: all 0.2s ease;
+  font-size: 120px;
+  text-align: center;
+  font-weight: bold;
+  color: #FFF;
+}
+
+header a:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* destaque */
+
+.destaque {
+  display: flex;
+  flex-flow: column;
+}
+
+.destaque div {
+  margin: auto;
+  padding: 20px 0;
+  max-width: 30vh;
+}
+
+.destaque h3 {
+  font-size: 4vh;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* detalhe */
+
+.detalhe {
+  display: flex;
+  flex-flow: column;
+  background-color: rgb(255, 230, 0);
+}
+
+.detalhe h2 {
+  margin: auto;
+}
+
+.detalhe div {
+  margin: 10px auto;
+  padding-top: 10px;
+}
+
+.detalhe p {
+  margin: auto;
+  text-align: center;
+  max-width: 80%;
+}
+
+/* contato */
+
+.contato {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.contato p {
+  margin: 90px 50px;
+}
+
+.contato ul {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.contato li {
+  margin: 50px auto;
+}
+
+.contato a {
+  background-color: rgba(255, 230, 0 ,0.7);
+  padding: 30px;
+  margin: auto;
+  font-size: 3vh;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.contato a:hover {
+  background-color: rgba(255, 230, 0, 0.9);
+}
+
+/* footer */
+
+footer {
+  background-color: rgb(255, 230, 0);
+  display: flex;
+  flex-flow: column;
+}
+
+footer ul {
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+}
+
+footer li {
+  margin: 50px auto;
+}
+
+footer a {
+  font-size: 8vh;
+}
