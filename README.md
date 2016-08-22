@@ -22,15 +22,13 @@
 ## Important!
 
 ### Add CSS
- <link rel="stylesheet" type="text/css" href="css/style.css" />  
+<tag> <link rel="stylesheet" type="text/css" href="css/style.css" /> </tag> 
 
 ### Add Font Montserrat 
- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">  
-  
+ <tag> <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> </tag> 
 
 ### Add Font-Awesome
- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous" />  
-
+ <tag> <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous" /> </tag>  
 
 ### Add Viewport 
- <meta name="viewport" content="initial-scale=1, maximum-scale=1, width=device-width"/>  
+ <tag> <meta name="viewport" content="initial-scale=1, maximum-scale=1, width=device-width"/> </tag>  
