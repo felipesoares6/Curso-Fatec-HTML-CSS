@@ -17,6 +17,9 @@
 - [codepen.io](http://codepen.io/)
 - [fontawesome.io](http://fontawesome.io/)
 - [CDN fontawesome.io](https://www.bootstrapcdn.com/fontawesome/)
+- [Maujor](http://www.maujor.com/)
+- [meetup sorocabaCSS](https://sorocabacss.github.io/)
+- [meetup codepen.io](https://nvite.com/CodePenSorocaba/cbda)
 
 
 ## Important!
