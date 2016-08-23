@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: Montserrat, monospace;
+  box-sizing: border-box;
 }
 
 a {
@@ -25,15 +26,34 @@ footer {
   min-height: 100vh;
 }
 
-h2 {
-  font-size: 6vh;
+p {
+  font-family: Arial, sans-serif;
   text-align: center;
 }
 
-p {
-  font-family: Arial;
+h2 {
   text-align: center;
-  font-size: 25px;
+  font-size: 34px;
+  margin-top: 30px
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+@media (min-width: 768px){
+  h2 {
+    font-size: 58px;
+  }
+
+  h3 {
+    font-size: 44px;
+  }
+
+  p {
+    font-size: 32px;
+  }
 }
 
 /* header */
@@ -46,9 +66,7 @@ header {
   position: relative;
   display: flex;
   flex-flow: column;
-  justify-content: center;
   background-attachment: fixed;
-
 }
 
 header:after {
@@ -63,23 +81,22 @@ header:after {
 }
 
 h1 {
-  font-size: 120px;
+  font-size: 38px;
   text-align: center;
   font-weight: bold;
   color: #FFF;
   z-index: 2;
+  letter-spacing: 1px;
 }
 
 header a {
-  display: block;
+  margin: auto;
+  display: inline-block;
   background-color: rgba(0, 0, 0 ,0.4);
   color: #FFF;
-  margin: auto;
-  padding: 16px;
+  padding: 16px 10px;
   border-radius: 4px;
-  max-width: 50vh;
   transition: all 0.2s ease;
-  font-size: 120px;
   text-align: center;
   font-weight: bold;
   color: #FFF;
@@ -89,23 +106,40 @@ header a:hover {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+@media (min-width: 768px){
+  h1 {
+    font-size: 70px;
+  }
+}
+
 /* destaque */
 
-.destaque {
+.destaque ul {
   display: flex;
   flex-flow: column;
 }
 
-.destaque div {
-  margin: auto;
+.destaque li {
   padding: 20px 0;
-  max-width: 30vh;
+  margin: auto;
+  display: flex;
+  flex-flow: column;
 }
 
+.destaque img {
+  height: 180px;
+  margin: auto;
+}
+
+
 .destaque h3 {
-  font-size: 4vh;
-  text-align: center;
   padding: 20px 0;
+}
+
+@media (min-width: 768px){
+    .destaque img {
+      height: 300px;
+    }
 }
 
 /* detalhe */
@@ -117,18 +151,28 @@ header a:hover {
 }
 
 .detalhe h2 {
-  margin: auto;
+  margin: 30px auto;
 }
 
-.detalhe div {
-  margin: 10px auto;
-  padding-top: 10px;
+.detalhe img {
+  height: 280px;
+  margin: auto;
+
 }
 
 .detalhe p {
   margin: auto;
   text-align: center;
-  max-width: 80%;
+  max-width: 90%;
+  padding: 28px 0;
+}
+
+
+@media (min-width: 768px){
+
+  .detalhe img {
+    height: 450px;
+  }
 }
 
 /* contato */
@@ -140,30 +184,45 @@ header a:hover {
 }
 
 .contato p {
-  margin: 90px 50px;
+  margin: 60px auto;
+  max-width: 90%;
+
 }
 
 .contato ul {
   display: flex;
   flex-flow: column;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .contato li {
-  margin: 50px auto;
+  margin: 30px auto;
 }
 
 .contato a {
   background-color: rgba(255, 230, 0 ,0.7);
-  padding: 30px;
+  padding: 16px;
   margin: auto;
-  font-size: 3vh;
-  color: #FFF;
-  font-weight: bold;
+  font-size: 18px;
+  color: rgb(36, 181, 0);
 }
 
 .contato a:hover {
   background-color: rgba(255, 230, 0, 0.9);
+}
+
+
+@media (min-width: 768px){
+
+  .contato li  {
+    margin: 60px auto;
+  }
+
+  .contato a {
+    font-size: 36px;
+    padding: 28px;
+  }
 }
 
 /* footer */
@@ -181,9 +240,15 @@ footer ul {
 }
 
 footer li {
-  margin: 50px auto;
+  margin: 40px auto;
 }
 
 footer a {
-  font-size: 8vh;
+  font-size: 50px;
+}
+
+@media (min-width: 768px) {
+  footer a {
+    font-size: 100px;
+  }
 }
