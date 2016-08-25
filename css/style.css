@@ -62,22 +62,9 @@ header {
   background-image: url("https://source.unsplash.com/user/pineapple");
   background-size: cover;
   background-position: center;
-  z-index: 2;
-  position: relative;
   display: flex;
   flex-flow: column;
   background-attachment: fixed;
-}
-
-header:after {
-  z-index: -1;
-  content: '';
-  background-color: rgba(0, 0, 0, 0.6);
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
 }
 
 h1 {
