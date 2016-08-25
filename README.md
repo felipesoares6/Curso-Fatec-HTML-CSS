@@ -24,11 +24,8 @@
 ### Add CSS
 ``` <link rel="stylesheet" type="text/css" href="css/style.css" /> ```
 
-### Add Font Montserrat 
- ``` <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> ``` 
-
-### Add Font-Awesome
+### Add FontAwesome
  ``` <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous" /> ```  
 
-### Add Viewport 
- ``` <meta name="viewport" content="initial-scale=1, maximum-scale=1, width=device-width"/> ``` 
+### Add Viewport
+ ``` <meta name="viewport" content="initial-scale=1, maximum-scale=1, width=device-width"/> ```
