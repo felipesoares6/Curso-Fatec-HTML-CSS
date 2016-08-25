@@ -17,7 +17,8 @@
 - [codepen.io](http://codepen.io/)
 - [fontawesome.io](http://fontawesome.io/)
 - [CDN fontawesome.io](https://www.bootstrapcdn.com/fontawesome/)
-
+- [tiny png](https://tinypng.com/)
+- [freecodecamp](freecodecamp.com)
 
 ## Important!
 
