@@ -19,13 +19,16 @@
 - [CDN fontawesome.io](https://www.bootstrapcdn.com/fontawesome/)
 - [tiny png](https://tinypng.com/)
 - [freecodecamp](freecodecamp.com)
+- [Maujor](http://www.maujor.com/)
+- [meetup sorocabaCSS](https://sorocabacss.github.io/)
+- [meetup codepen.io](https://nvite.com/CodePenSorocaba/cbda)
 
 ## Important!
 
 ### Add CSS
 ``` <link rel="stylesheet" type="text/css" href="css/style.css" /> ```
 
-### Add FontAwesome
+### Add Font awesome
  ``` <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous" /> ```  
 
 ### Add Viewport
