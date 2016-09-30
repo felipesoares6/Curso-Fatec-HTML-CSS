@@ -4,7 +4,7 @@
 - [formulário](https://goo.gl/forms/XU4fBTyLbPwKX3fF2)
 
 ## Slides
-- [HTML + CSS]()
+- [HTML + CSS](https://speakerdeck.com/felipesoares6/html-plus-css)
 
 ## Exercício de HTML+CSS
 - [exercício](https://drive.google.com/file/d/0BwnB_rF6SHONYTM3czNnbXB6aFU/view?usp=sharing)
