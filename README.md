@@ -6,8 +6,8 @@
 ## Slides
 - [HTML + CSS]()
 
-## Exercício
-- [PDF](https://drive.google.com/file/d/0BwnB_rF6SHONYTM3czNnbXB6aFU/view?usp=sharing)
+## Exercício de HTML+CSS
+- [exercício](https://drive.google.com/file/d/0BwnB_rF6SHONYTM3czNnbXB6aFU/view?usp=sharing)
 
 ## Links
 - [convert hex to RGB](http://hex.colorrrs.com/)
