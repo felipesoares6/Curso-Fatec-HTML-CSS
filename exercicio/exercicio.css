@@ -1,0 +1,32 @@
+/* detalhe */
+
+.detalhe {
+  display: flex;
+  flex-flow: column;
+  background-color: rgb(255, 230, 0);
+}
+
+.detalhe h2 {
+  margin: 30px auto;
+}
+
+.detalhe img {
+  height: 280px;
+  margin: auto;
+
+}
+
+.detalhe p {
+  margin: auto;
+  text-align: center;
+  max-width: 90%;
+  padding: 28px 0;
+}
+
+
+@media (min-width: 768px){
+
+  .detalhe img {
+    height: 450px;
+  }
+}
