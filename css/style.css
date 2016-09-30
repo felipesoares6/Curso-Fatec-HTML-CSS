@@ -101,6 +101,10 @@ header a:hover {
 
 /* destaque */
 
+.destaque {
+  background-color: rgb(255, 230, 0);
+}
+
 .destaque ul {
   display: flex;
   flex-flow: column;
