@@ -1,10 +1,18 @@
-/* reset */
+/* resets */
 
 * {
   margin: 0;
   padding: 0;
-  font-family: monospace, sans-serif;
   box-sizing: border-box;
+}
+
+body {
+  font-family: monospace, sans-serif, serif;
+}
+
+
+ul {
+  list-style: none;
 }
 
 a {
@@ -12,12 +20,9 @@ a {
   color: #000;
 }
 
-ul {
-  list-style-type: none;
-}
-
-img {
-  max-width: 100%;
+h2 {
+  font-size: 28px;
+  padding: 20px;
 }
 
 header,
@@ -26,111 +31,91 @@ footer {
   min-height: 100vh;
 }
 
-p {
-  font-family: Arial, sans-serif;
-  text-align: center;
-}
 
-h2 {
-  text-align: center;
-  font-size: 34px;
-  margin-top: 30px
-}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 46px;
+  }
 
-h3 {
-  font-size: 30px;
-  text-align: center;
-}
-
-@media (min-width: 768px){
   h2 {
-    font-size: 58px;
-  }
-
-  h3 {
-    font-size: 44px;
-  }
-
-  p {
-    font-size: 32px;
+    font-size: 40px;
+    padding: 40px;
   }
 }
 
 /* header */
 
 header {
-  background-image: url("https://source.unsplash.com/user/pineapple");
-  background-size: cover;
-  background-position: center;
   display: flex;
-  flex-flow: column;
+  background-image: url("https://source.unsplash.com/user/pineapple");
+  background-position: center;
+  background-size: cover;
   background-attachment: fixed;
-}
-
-h1 {
-  font-size: 38px;
-  text-align: center;
-  font-weight: bold;
-  color: #FFF;
-  z-index: 2;
-  letter-spacing: 1px;
 }
 
 header a {
   margin: auto;
-  display: inline-block;
-  background-color: rgba(0, 0, 0 ,0.4);
-  color: #FFF;
-  padding: 16px 10px;
-  border-radius: 4px;
+  padding: 20px 40px;
+  background-color: rgba(59, 59, 59, 0.7);
+  border-radius: 1%;
+  color: #fff;
   transition: all 0.2s ease;
-  text-align: center;
-  font-weight: bold;
-  color: #FFF;
 }
 
 header a:hover {
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
-@media (min-width: 768px){
-  h1 {
-    font-size: 70px;
-  }
+  background-color: rgba(59, 59, 59, 0.8);
 }
 
 /* destaque */
 
 .destaque {
-  background-color: rgb(255, 230, 0);
+  background-color: yellow;
+  text-align: center;
+  padding-bottom: 20px;
+  display: flex;
+  flex-flow: column;
+}
+
+.destaque h3 {
+  font-size: 24px;
 }
 
 .destaque ul {
+  margin: auto;
   display: flex;
   flex-flow: column;
 }
 
 .destaque li {
-  padding: 20px 0;
-  margin: auto;
-  display: flex;
-  flex-flow: column;
+  margin: 30px;
 }
 
 .destaque img {
-  height: 180px;
-  margin: auto;
-}
-
-
-.destaque h3 {
-  padding: 20px 0;
+  max-height: 100%;
+  width: 240px;
 }
 
 @media (min-width: 768px){
-    .destaque img {
-      height: 300px;
-    }
+
+  .destaque h3 {
+    font-size: 34px;
+  }
+
+  .destaque li {
+    margin: 60px;
+  }
+
+  .destaque img {
+    width: 340px;
+  }
+
+}
+
+@media (min-width: 1024px){
+  .destaque ul {
+    flex-flow: row;
+    margin: 60px auto;
+  }
 }
 
 /* contato */
@@ -138,57 +123,57 @@ header a:hover {
 .contato {
   display: flex;
   flex-flow: column;
-  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+
+.contato p,
+.contato ul {
+  margin: auto;
 }
 
 .contato p {
-  margin: 60px auto;
-  max-width: 90%;
-
-}
-
-.contato ul {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  margin-bottom: 50px;
+  padding: 10px;
 }
 
 .contato li {
-  margin: 30px auto;
+  margin: 60px auto;
 }
 
 .contato a {
-  background-color: rgba(255, 230, 0 ,0.7);
-  padding: 16px;
-  margin: auto;
-  font-size: 18px;
-  color: rgb(36, 181, 0);
+  padding: 20px 10px;
+  background-color: rgba(250, 255, 0, 0.6);
+  color: rgb(77, 224, 0);
+  transition: all 0.2s ease;
 }
 
 .contato a:hover {
-  background-color: rgba(255, 230, 0, 0.9);
+  background-color: rgba(250, 255, 0, 1);
 }
 
+@media (min-width: 768px) {
+  .contato {
+    font-size: 28px;
+  }
 
-@media (min-width: 768px){
-
-  .contato li  {
-    margin: 60px auto;
+  .contato li {
+    margin: 100px auto;
   }
 
   .contato a {
-    font-size: 36px;
-    padding: 28px;
+    padding: 30px 70px;
   }
+
 }
+
 
 /* footer */
 
 footer {
-  background-color: rgb(255, 230, 0);
+  background-color: yellow;
   display: flex;
   flex-flow: column;
+  justify-content: space-around;
 }
 
 footer ul {
@@ -198,15 +183,32 @@ footer ul {
 }
 
 footer li {
-  margin: 40px auto;
+  margin: 50px auto;
 }
 
 footer a {
   font-size: 50px;
+  transition: all 0.2s ease;
+}
+
+footer a:hover {
+  font-size: 63px;
 }
 
 @media (min-width: 768px) {
-  footer a {
-    font-size: 100px;
+
+  footer li {
+    margin: 90px auto;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  footer ul {
+    flex-flow: row;
+  }
+
+  footer li {
+    margin: auto 80px;
   }
 }
