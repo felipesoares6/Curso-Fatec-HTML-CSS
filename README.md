@@ -10,6 +10,7 @@
 - [exercício](https://drive.google.com/file/d/0BwnB_rF6SHONYTM3czNnbXB6aFU/view?usp=sharing)
 
 ## Links
+- [google HTML/CSS style guide](https://google.github.io/styleguide/htmlcssguide.xml)
 - [convert hex to RGB](http://hex.colorrrs.com/)
 - [unsplash.com](https://unsplash.com/)
 - [unsplash source](https://source.unsplash.com/)
