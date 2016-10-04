@@ -1,3 +1,128 @@
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  max-height: 100%;
+}
+
+header,
+section,
+footer {
+  min-height: 100vh;
+}
+
 html {
-  background-color: red;
+  font-family: monospace, sans-serif, serif;
+}
+
+h2 {
+  padding: 25px 0;
+}
+
+@media (min-width:768px){
+  h2 {
+    font-size: 36px;
+  }
+}
+
+section {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+
+/* header */
+
+header {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  background-image: url("https://source.unsplash.com/user/pineapple");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header a {
+  color: #FFF;
+  margin: auto;
+  padding: 20px 40px;
+  background-color: rgba(147, 147, 147, 0.7);
+  border-radius: 1%;
+  transition: all 0.2s ease;
+}
+
+header a:hover {
+  background-color: rgba(147, 147, 147, 0.9);
+}
+
+/* destaque */
+
+.destaque {
+  background-color: yellow;
+}
+
+img {
+  width: 200px;
+}
+
+li {
+  margin: 15px 0;
+}
+
+ul {
+  margin: auto;
+}
+
+@media (min-width: 768px){
+  img {
+    width: 400px;
+  }
+}
+
+/* contato */
+
+.contato p {
+  margin: 20px 0 50px 0;
+  padding: 0 10px;
+}
+
+.contato li {
+  margin: 50px 0;
+}
+
+.contato a {
+  padding: 20px 20px;
+  color: #00f02d;
+  background-color: rgba(252, 242, 0, 0.8);
+}
+
+footer {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  background-color: yellow;
+}
+
+footer ul {
+  margin: auto;
+  font-size: 50px;
+}
+
+footer li {
+  margin: 80px 0
 }
