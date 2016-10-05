@@ -76,23 +76,36 @@ header a:hover {
   background-color: yellow;
 }
 
-img {
+.destaque img {
   width: 200px;
 }
 
-li {
-  margin: 15px 0;
-}
-
-ul {
+.destaque ul {
   margin: auto;
+  display: flex;
+  flex-flow: column;
 }
 
-@media (min-width: 768px){
-  img {
+.destaque li {
+  margin: 15px auto;
+}
+
+@media (min-width:768px){
+  .destaque img {
     width: 400px;
   }
+
+  .destaque h3 {
+    font-size: 28px;
+  }
 }
+
+@media (min-width:1024px) {
+  .destaque ul {
+    flex-flow: row;
+  }
+}
+
 
 /* contato */
 
@@ -111,18 +124,41 @@ ul {
   background-color: rgba(252, 242, 0, 0.8);
 }
 
+/* footer */
+
 footer {
   display: flex;
-  flex-flow: column;
   text-align: center;
   background-color: yellow;
 }
 
 footer ul {
   margin: auto;
+  display: flex;
+  flex-flow: column;
   font-size: 50px;
 }
 
 footer li {
-  margin: 80px 0
+  margin: 20px 0;
+}
+
+@media (min-width: 768px){
+  footer li {
+    margin: 60px 0;
+  }
+}
+
+@media (min-width: 1024px){
+  footer ul {
+    flex-flow: row;
+  }
+
+  footer li {
+    margin: 20px 80px;
+  }
+
+  footer {
+    min-height: 10vh;
+  }
 }
