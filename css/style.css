@@ -12,17 +12,10 @@ ol {
 
 a {
   text-decoration: none;
-  color: #000;
 }
 
 img {
   max-height: 100%;
-}
-
-header,
-section,
-footer {
-  min-height: 100vh;
 }
 
 html {
@@ -33,132 +26,145 @@ h2 {
   padding: 25px 0;
 }
 
-@media (min-width:768px){
+@media (min-width:768px) {
   h2 {
     font-size: 36px;
   }
 }
 
-section {
-  display: flex;
-  flex-flow: column;
-  text-align: center;
-}
-
 /* header */
 
-header {
+.header {
+  min-height: 100vh;
   display: flex;
   flex-flow: column;
   text-align: center;
-  background-image: url("https://source.unsplash.com/user/pineapple");
+  background-image: url('../assets/abacaxis.jpg');
   background-position: center;
-  background-size: cover;
   background-attachment: fixed;
+  background-size: cover;
 }
 
-header a {
-  color: #FFF;
+.header h1 {
+  color: #fff;
   margin: auto;
-  padding: 20px 40px;
-  background-color: rgba(147, 147, 147, 0.7);
-  border-radius: 1%;
-  transition: all 0.2s ease;
+  padding: 30px 60px;
+  background-color: #167725;
+  border-radius: 1.5%;
+  letter-spacing: 1px;
 }
 
-header a:hover {
-  background-color: rgba(147, 147, 147, 0.9);
+/* featured */
+
+.featured {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  color: #202020;
+  background-color: #72db82;
 }
 
-/* destaque */
-
-.destaque {
-  background-color: yellow;
-}
-
-.destaque img {
+.featured img {
   width: 200px;
 }
 
-.destaque ul {
+.featured ul {
   margin: auto;
   display: flex;
   flex-flow: column;
 }
 
-.destaque li {
+.featured li {
   margin: 15px auto;
 }
 
-@media (min-width:768px){
-  .destaque img {
+@media (min-width:768px) {
+  .featured img {
     width: 400px;
   }
 
-  .destaque h3 {
+  .featured h3 {
     font-size: 28px;
   }
 }
 
 @media (min-width:1024px) {
-  .destaque ul {
+  .featured ul {
     flex-flow: row;
   }
 }
 
+/* contact */
 
-/* contato */
+.contact {
+  text-align: center;
+  color: #202020;
+  background-color: #fff;
+  padding: 20px;
+}
 
-.contato p {
-  margin: 20px 0 50px 0;
+.contact p {
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 0 10px;
 }
 
-.contato li {
+.contact li {
   margin: 50px 0;
 }
 
-.contato a {
-  padding: 20px 20px;
-  color: #00f02d;
-  background-color: rgba(252, 242, 0, 0.8);
+.contact a {
+  padding: 20px;
+  color: #fff;
+  background-color: #167725;
 }
 
 /* footer */
 
-footer {
+.footer {
+  min-height: 100vh;
   display: flex;
   text-align: center;
-  background-color: yellow;
+  background-color: #72db82;
 }
 
-footer ul {
+.footer ul {
   margin: auto;
   display: flex;
   flex-flow: column;
   font-size: 50px;
 }
 
-footer li {
+.footer li {
   margin: 20px 0;
 }
 
-@media (min-width: 768px){
-  footer li {
+.footer a {
+  color: #202020;
+  transition: color .2s ease;
+}
+
+.footer a:hover {
+  color: #121212;
+}
+
+@media (min-width: 768px) {
+  .footer li {
     margin: 60px 0;
   }
 }
 
-@media (min-width: 1024px){
-  footer ul {
+@media (min-width: 1024px) {
+  .footer ul {
     flex-flow: row;
   }
 
-  footer li {
+  .footer li {
     margin: 20px 80px;
   }
 
-  footer {
+  .footer {
     min-height: 10vh;
   }
 }
