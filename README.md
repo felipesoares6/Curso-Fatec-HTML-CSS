@@ -4,6 +4,7 @@
 - [formulário](https://goo.gl/forms/XU4fBTyLbPwKX3fF2)
 
 ## Slides
+- [slides do curso](https://speakerdeck.com/felipesoares6/html-plus-css)
 
 ## Links
 - [google HTML/CSS style guide](https://google.github.io/styleguide/htmlcssguide.xml)
